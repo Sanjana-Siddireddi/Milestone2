@@ -1,0 +1,945 @@
+[
+  {
+    "contract_type": "Employment",
+    "clause_id": "1.1",
+    "clause_heading": "Title/Duties",
+    "clause_text": "You shall be employed as Chief Financial Officer (CFO), and you will provide services to and take direction from the Company. You will be responsible for the duties and obligations consistent with your position, which will be subject to the control of the Company and may change from time to time at the sole discretion of the CEO (the \"Services\"). You will devote your full time and best efforts to the performance of your duties for the Company. While employed by the Company, except as may otherwise be approved by the Board of Directors you shall not perform work on behalf of, or provide services to, third parties, whether as an employee, director, consultant, advisor, or otherwise, and you shall not engage in any other activities that conflict with your obligations to the Company.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the employee's role and responsibilities, which is a key aspect of an employment agreement.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "Restrictive covenant on external work",
+        "Unclear scope of duties and obligations",
+        "CEO discretion in changing responsibilities",
+        "Potential conflict of interest"
+      ],
+      "missing_controls": [
+        "Clear definition of 'full time and best efforts'",
+        "Specific guidelines on approved external work",
+        "Procedure for resolving conflicts of interest"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause presents a moderate risk due to its restrictive nature and potential for conflict of interest. While it does not directly implicate specific regulations like GDPR or HIPAA, the lack of clear definitions and guidelines may lead to disputes or unintended consequences.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "2.1",
+    "clause_heading": "Base Salary",
+    "clause_text": "As full and complete consideration for the Services provided herein by you, and on the condition that you fully and faithfully perform the Services, duties and obligations required to be performed hereunder, and that you are not in breach of this Agreement, the Company shall pay you a base salary at the annual rate of Three hundred thousand Dollars ($300,000) gross, per annum (prorated for partial years), payable in accordance with the Company’s payroll practices and subject to customary tax withholdings and deductions.",
+    "clause_type": "Payment",
+    "rationale": "This clause specifies the employee's base salary, which is a fundamental aspect of an employment agreement.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Conditional payment structure",
+        "Dependence on full performance of services"
+      ],
+      "missing_controls": [
+        "Clear definition of 'customary tax withholdings and deductions'",
+        "Specific details on payroll practices"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause outlines a standard employment compensation structure with conditional payment based on performance, posing minimal regulatory risk but requiring clarity on tax withholdings and payroll practices.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "3.1",
+    "clause_heading": "Discretionary Bonus",
+    "clause_text": "The Company may, in its sole discretion, award to you a discretionary bonus (the \"Bonus\") each financial year based on the Company’s overall performance and subject to customary tax withholdings and deductions. Payment of the Bonus, if any, and the amount, is in the Company’s sole discretion. The Company shall pay you such Bonus (if earned) following the end of the financial year for which it is earned; if you must be actively employed by the Company and in good standing on the date such Bonus is to be paid to you to receive it.",
+    "clause_type": "Payment",
+    "rationale": "This clause outlines the terms of a discretionary bonus, which is a common aspect of employment agreements.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Discretionary bonus payment",
+        "Conditional on employment status"
+      ],
+      "missing_controls": [
+        "Clear criteria for bonus eligibility",
+        "Appeal process for disputed bonus decisions"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause poses low risk as it clearly states the discretionary nature of the bonus and the conditions for payment. However, the lack of clear criteria for bonus eligibility and an appeal process may lead to disputes.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "4.1",
+    "clause_heading": "Equity",
+    "clause_text": "Subject to the approval of the Board of Directors of the Company, the Company will grant to you, as of the earliest date upon which future grants are made to other employees of the Company (the \"Grant Date\"), an option to purchase shares of the Company’s common stock in an amount to be determined by the Board commensurate with your role (the \"Option\") in accordance with the Company’s [2017 Equity Incentive Plan] as it may be amended or restated or replaced (the \"Plan\"); provided that you must be an employee in good standing with the Company on the Grant Date in order to receive the Option.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of an equity grant, which is a common aspect of employment agreements for senior executives.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Conditional grant of stock options",
+        "Dependence on Board of Directors' approval",
+        "Employee status requirement"
+      ],
+      "missing_controls": [
+        "Specific criteria for determining option amount",
+        "Clear definition of 'employee in good standing'"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause outlines a standard employee stock option grant, subject to Board approval and employee status. The risk is relatively low, as it is a common practice and does not directly implicate major regulations like GDPR or HIPAA. However, the lack of specific criteria for determining the option amount and the definition of 'employee in good standing' may introduce some uncertainty.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "5.1",
+    "clause_heading": "Employee Benefits",
+    "clause_text": "If you are eligible, you may participate in the Company’s non-equity employee benefit plans or programs, subject to the terms of such plan or program and Company policy. However, nothing herein requires the Company to keep such plan or arrangement in place, or continue any such plan or arrangement, and the Company may modify, amend, or terminate such plan or program at any time in its sole discretion.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of employee benefits, which is a common aspect of employment agreements.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Keyword detected: terminate"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Unilateral modification rights",
+        "Lack of explicit employee protections"
+      ],
+      "missing_controls": [
+        "Clear notice period for plan changes",
+        "Employee consultation requirements"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "The clause grants the Company broad discretion to modify or terminate employee benefit plans, but this is a common provision in employment contracts. The risk is mitigated by the fact that the clause does not appear to implicate sensitive data or intellectual property, and the Company's actions are still subject to general contract law and employment regulations.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "6.1",
+    "clause_heading": "Business Expenses",
+    "clause_text": "The Company will reimburse you for reasonable, pre-approved business expenses in accordance with Company policy. Such expenses shall be paid for by the Company if they are incurred by you while performing the Services, consistent with the Company’s policies regarding business expenses, and supported by documentation submitted by you in a timely manner.",
+    "clause_type": "Payment",
+    "rationale": "This clause outlines the terms of business expense reimbursement, which is a common aspect of employment agreements.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Unclear definition of 'reasonable' expenses",
+        "Lack of specific details on reimbursement process"
+      ],
+      "missing_controls": [
+        "No explicit mention of audit rights",
+        "No clear timeframe for reimbursement"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause appears to be a standard reimbursement provision, posing minimal risk. However, the lack of clear definitions and specific details may lead to disputes or inconsistencies in reimbursement practices.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "7.1",
+    "clause_heading": "Paid Time Off",
+    "clause_text": "Vacation. You shall be entitled to vacation time in accordance with Company policy, which shall not contravene any rights provided by applicable law.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of paid time off, which is a common aspect of employment agreements.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Ambiguity in 'Company policy' definition",
+        "Potential for conflict with applicable law"
+      ],
+      "missing_controls": [
+        "Specific details on vacation time accrual",
+        "Clear procedure for resolving conflicts with applicable law"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "The clause generally aligns with standard employment practices, referencing applicable law to ensure compliance. However, the lack of specificity regarding company policy and vacation time accrual details introduces minor risks.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "8.1",
+    "clause_heading": "Confidentiality",
+    "clause_text": "You acknowledge that during your employment with the Company you will have access to the Company’s confidential information, including, but not limited to, the Company’s proprietary information, intellectual property, research, customer lists, supplier lists, product pricing methods, price lists and know-how. You agree not to disclose any of the Company’s confidential information without the Company’s written consent.",
+    "clause_type": "Confidentiality",
+    "rationale": "This clause outlines the terms of confidentiality, which is a critical aspect of employment agreements.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 15,
+      "risk_factors": [
+        "Keyword detected: confidential"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Unintentional disclosure of confidential information",
+        "Insufficient specification of confidential information"
+      ],
+      "missing_controls": [
+        "Time limit for confidentiality obligations",
+        "Specific consequences for breach of confidentiality"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "GDPR",
+        "None"
+      ],
+      "explanation": "This clause is a standard confidentiality agreement, which is a common and reasonable provision in employment contracts. The risk is low because it clearly outlines the employee's obligation to maintain confidentiality and obtain written consent before disclosing any confidential information. However, there are some minor risks and missing controls, such as the lack of a time limit for confidentiality obligations and specific consequences for breach of confidentiality.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "9.1",
+    "clause_heading": "Term",
+    "clause_text": "Although your employment with the company started prior to this agreement, this agreement shall commence on June 1, 2024 (the \"Start Date\"), and is terminable \"at will,\" which means you or the Company may terminate your employment with or without Cause, notice, or Good Reason at any time, subject to Paragraph 10 below; provided, however, that you agree to provide the Company with at least thirty (30) days advance written notice of your intent to terminate employment.",
+    "clause_type": "Termination",
+    "rationale": "This clause outlines the terms of the employment agreement's term, including termination provisions.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Keyword detected: terminate"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "at-will termination clause may lead to disputes over notice periods or severance",
+        "lack of clear definition of 'Cause' or 'Good Reason' for termination",
+        "potential inconsistency with local employment laws or regulations"
+      ],
+      "missing_controls": [
+        "clearly defined notice periods for termination by the Company",
+        "severance package or termination benefits",
+        "reference to applicable employment laws or regulations"
+      ],
+      "regulation_violations": [
+        "potential inconsistency with local employment laws or regulations"
+      ],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "The at-will termination clause may pose a medium risk due to potential disputes over notice periods or severance, and the lack of clear definitions for 'Cause' or 'Good Reason'. However, the clause does provide some protection by requiring the employee to provide 30 days' advance written notice.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "10.1",
+    "clause_heading": "Termination",
+    "clause_text": "In the event that the Company terminates your employment for Cause, or you resign without Good Reason, you will be entitled to receive: (i) your Base Salary through the date of termination to the extent not yet paid to you; (ii) any unreimbursed business expenses payable to you in accordance with Company policy; and (iii) such employee benefits, if any, to which you may be entitled under the Company’s employee benefit plans and programs as of your termination date (items (i) through (iii) being the \"Accrued Amounts\").",
+    "clause_type": "Termination",
+    "rationale": "This clause outlines the terms of termination, including the payment of accrued amounts.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Keyword detected: terminate"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Unclear definition of 'Cause' and 'Good Reason'",
+        "Potential dispute over unreimbursed business expenses"
+      ],
+      "missing_controls": [
+        "Lack of explicit notice period for termination",
+        "No clear procedure for claiming Accrued Amounts"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause outlines standard severance payments and does not appear to pose significant regulatory or legal risks, but clarity on key terms and procedures could reduce potential disputes.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "10.2",
+    "clause_heading": "Termination",
+    "clause_text": "If the Company terminates your employment without Cause, or you terminate your employment for Good Reason, in addition to the Accrued Amounts, the Company will pay you severance in the form of: 10.2.1 salary continuation (the \"Salary Continuation\") at your then base salary rate, payable in accordance with the Company’s normal payroll practices, from the termination date through the twelve (12) month anniversary of the termination date (the \"Severance Period\"); plus 10.2.2 a pro-rated bonus for the year of termination as determined by the Board of Directors equal to: (1) the Bonus you would have received pursuant to Paragraph 3 for the year of termination, had you remained employed through such Bonus’ payment date, multiplied by (2) a fraction, the numerator of which is the number of days you were employed by the Company in the year of termination and the denominator being 365;",
+    "clause_type": "Termination",
+    "rationale": "This clause outlines the terms of severance pay in the event of termination without cause or for good reason.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Keyword detected: terminate"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Unclear definition of 'Cause' and 'Good Reason'",
+        "Potential dispute over calculation of pro-rated bonus"
+      ],
+      "missing_controls": [
+        "No explicit confidentiality or non-disclosure agreement",
+        "No clear procedure for dispute resolution"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause outlines severance payments in the event of termination without cause or for good reason. The terms are generally standard and do not pose significant regulatory or liability risks. However, unclear definitions and potential calculation disputes may lead to minor issues.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "11.1",
+    "clause_heading": "Tax Matters",
+    "clause_text": "All forms of compensation referred to in this Agreement are subject to reduction to reflect applicable withholding and payroll taxes and other deductions required by law.",
+    "clause_type": "Payment",
+    "rationale": "This clause outlines the terms of tax withholding and deductions.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "potential for tax liabilities",
+        "compliance with payroll tax regulations"
+      ],
+      "missing_controls": [
+        "specific details on tax withholding procedures",
+        "definition of 'other deductions required by law'"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause appears to be a standard provision for tax withholding and payroll deductions, posing minimal risk as it aligns with general tax laws and regulations.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "12.1",
+    "clause_heading": "Section 409A",
+    "clause_text": "This Agreement is intended to comply with the requirements of Section 409A of the Code (\"Section 409A\"), and the Parties hereby agree to amend this Agreement as and when necessary or desirable to conform to or otherwise properly reflect any guidance issued under Section 409A after the date hereof without violating Section 409A.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of compliance with Section 409A of the tax code.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Potential for unintended non-compliance with Section 409A if amendments are not properly made",
+        "Dependence on the parties' agreement to amend the contract"
+      ],
+      "missing_controls": [
+        "Specific procedures for amendment and approval",
+        "Definition of 'necessary or desirable' circumstances for amendment"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "The clause demonstrates an intent to comply with Section 409A, reducing the risk of non-compliance. However, the lack of specific procedures for amendments and the reliance on mutual agreement introduce some uncertainty.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "14.1",
+    "clause_heading": "Governing Law and Arbitration",
+    "clause_text": "This Agreement shall be governed by, and construed and enforced in accordance with, the laws of the State of California. Other than a claimed violation by you of Paragraph 8 of this Agreement or the NDA (the \"Injunctive Relief Exception\"), any dispute or controversy arising out of or relating to this Agreement and/or related to your employment with the Company that could otherwise be resolved by a court shall be resolved through arbitration administered by the American Arbitration Association before a single neutral arbitrator in accordance with the Employment Arbitration Rules and Mediation Procedures, except as modified by this Agreement.",
+    "clause_type": "Governing Law",
+    "rationale": "This clause outlines the terms of governing law and arbitration.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "Arbitration may limit access to courts for certain disputes",
+        "Potential for unequal bargaining power in arbitration",
+        "California law may have specific requirements or implications for employment agreements"
+      ],
+      "missing_controls": [
+        "No explicit mention of confidentiality or data protection in the arbitration process",
+        "No clear guidelines for the arbitrator's qualifications or expertise"
+      ],
+      "regulation_violations": [
+        "Potential implications under California labor laws",
+        "Possible impact on whistleblower protections or other employment-related regulations"
+      ],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause establishes California law as the governing law and requires arbitration for most disputes, which may limit access to courts and raise concerns about unequal bargaining power. While it does not directly implicate major regulations like GDPR or HIPAA, it may have implications under California labor laws or other employment-related regulations.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "15.1",
+    "clause_heading": "Survival and Assignment",
+    "clause_text": "You agree that notwithstanding anything in this Agreement to the contrary, your obligations under this Agreement, specifically, but without limitation, Paragraph 8 of this Agreement, shall survive any termination of this Agreement and/or the relationship between you and the Company to the extent necessary to give effect to the subject provisions according to their terms.",
+    "clause_type": "Assignment",
+    "rationale": "This clause outlines the terms of survival and assignment of the agreement.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "Survival of obligations beyond termination",
+        "Potential for indefinite liability",
+        "Unclear scope of surviving provisions"
+      ],
+      "missing_controls": [
+        "Specific time limit for surviving obligations",
+        "Clear definition of surviving provisions"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause poses a medium risk due to the survival of obligations beyond termination, which may lead to indefinite liability. While it does not directly implicate specific regulations like GDPR or HIPAA, the unclear scope of surviving provisions may raise concerns under general contract law and potentially impact compliance with standards like SOC2 or ISO27001.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "16.1",
+    "clause_heading": "Litigation and Regulatory Cooperation",
+    "clause_text": "During and after your employment, you shall cooperate fully with the Company in (i) the defence or prosecution of any claims or actions now in existence or which may be brought in the future against or on behalf of the Company which relate to events or occurrences that transpired while you were employed by the Company, and (ii) the investigation, whether internal or external, of any matters about which the Company reasonably believes you may have knowledge or information, provided you are not waiving any legal rights he may have.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of cooperation in litigation and regulatory matters.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "Potential conflict between cooperation and individual legal rights",
+        "Unclear scope of 'events or occurrences' and 'matters' under investigation",
+        "Lack of explicit protection for employee's personal data and confidentiality"
+      ],
+      "missing_controls": [
+        "Clear definition of the extent of cooperation required",
+        "Specific procedures for handling confidential or sensitive information",
+        "Protections for employee's rights in case of conflicting interests"
+      ],
+      "regulation_violations": [
+        "Potential implications under GDPR (Article 5: fairness, lawfulness, and transparency)",
+        "Possible impact on HIPAA compliance in case of sensitive health information"
+      ],
+      "regulation_impact": [
+        "GDPR"
+      ],
+      "explanation": "The clause requires employee cooperation in defence, prosecution, and investigations, which may raise concerns about individual rights, data protection, and potential conflicts of interest. While it attempts to preserve employee's legal rights, the scope and implications are not entirely clear, warranting a medium risk assessment.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "17.1",
+    "clause_heading": "No Prior Conflicts and Duty of Loyalty",
+    "clause_text": "You confirm that you are not subject to any consent decree, court or arbitral order or agreement with any former employer or third party that prohibits you from working for the Company and that you are able to carry out your duties without breaching any legal restrictions imposed by a current or former employer or other third party to whom you have contractual obligations.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of no prior conflicts and duty of loyalty.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Potential for breach of third-party contracts",
+        "Uncertainty around scope of 'legal restrictions'"
+      ],
+      "missing_controls": [
+        "No explicit requirement for employee to disclose existing obligations",
+        "No clear process for Company to verify employee's statements"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause appears to be a standard employment contract provision, aiming to ensure the employee is not bound by conflicting obligations. While there are some potential risks, they are relatively low and do not implicate major regulations like GDPR or HIPAA.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "18.1",
+    "clause_heading": "Mitigation",
+    "clause_text": "You shall not be required to mitigate any payment provided for under the Agreement by seeking other employment or otherwise after the termination of your employment with the Company, and any amounts earned by you, whether from self-employment, as a common-law employee or otherwise, shall not reduce any severance amounts otherwise payable to you hereunder pursuant to Paragraph 10.",
+    "clause_type": "Termination",
+    "rationale": "This clause outlines the terms of mitigation of severance payments.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Potential for overcompensation if employee earns significant income after termination"
+      ],
+      "missing_controls": [
+        "No explicit requirement for employee to disclose post-termination earnings",
+        "No cap on total compensation (severance + post-termination earnings)"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause appears to be a standard severance provision, allowing the employee to receive full severance pay without reduction for post-termination earnings. The risk is low, but there is a potential for overcompensation if the employee earns significant income after termination.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "19.1",
+    "clause_heading": "Section 280G",
+    "clause_text": "If the Company is publicly traded at the time of a change in control of the Company (including an Acquisition of the Company as defined in the Plan) and any of the payments or benefits received or to be received by you (including, without limitation, any payment or benefits received in connection with such change in control or the termination of your employment, whether pursuant to the terms of this Agreement or any other plan, arrangement or agreement, or otherwise) (all such payments collectively referred to herein as the \"280G Payments\") constitute \"parachute payments\" within the meaning of Section 280G of the Internal Revenue Code (\"Section 280G\") and would, but for this Paragraph 19, be subject to the excise tax (the \"Excise Tax\") imposed under Section 4999 of the Internal Revenue Code (\"Section 4999\"), then prior to making the 280G Payments, a calculation shall be made comparing (i) the Net Benefit (as defined below) to you of the 280G Payments after payment of the Excise Tax to (ii) the Net Benefit to you if the 280G Payments are limited to the extent necessary to avoid being subject to the Excise Tax.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of Section 280G of the tax code.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Complex calculation of parachute payments",
+        "Potential impact of excise tax on employee benefits"
+      ],
+      "missing_controls": [
+        "No explicit mention of data protection or confidentiality",
+        "No clear indemnification provisions for the company"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "Internal Revenue Code (Section 280G and Section 4999)"
+      ],
+      "explanation": "This clause appears to be a standard provision to mitigate the impact of excise tax on employee benefits in the event of a change in control. The language is specific to US tax law and does not raise significant concerns regarding confidentiality, liability, or data protection.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "20.1",
+    "clause_heading": "Severability, Amendment and Modification",
+    "clause_text": "Whenever possible, each provision of this Agreement shall be interpreted in such a manner as to be effective and valid under applicable law, but if any provision of this Agreement is held to be prohibited by or invalid under applicable law, such provision shall fail to be in effect only to the extent of such prohibition or invalidity without invalidating the remainder of this Agreement or any such provision.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of severability, amendment, and modification.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Potential for partial invalidity of the agreement"
+      ],
+      "missing_controls": [
+        "No explicit reference to regulatory compliance"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause is a standard severability provision, which mitigates the risk of the entire agreement being invalidated due to a single provision being deemed unlawful. It does not introduce significant regulatory or compliance risks.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "21.1",
+    "clause_heading": "Entire Agreement",
+    "clause_text": "This Agreement constitutes the entire Agreement between the Parties hereto relating to the subject matter hereof. All prior or contemporaneous agreements or understandings between the Parties relating to the subject matter hereof, whether oral or written, are superseded by this Agreement and hereby null and void.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of the entire agreement.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Potential for dispute over prior agreements or understandings"
+      ],
+      "missing_controls": [
+        "No explicit language addressing potential conflicts with prior agreements"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This is a standard integration clause, which supersedes prior agreements and understandings, posing minimal risk as it clarifies the parties' intentions and reduces potential disputes.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "22.1",
+    "clause_heading": "Counterparts and Facsimile Signatures",
+    "clause_text": "This Agreement may be executed in two or more counterparts, each of which shall be an original but all of which shall constitute one and the same instrument. A facsimile or PDF scanned copy of signature shall be as valid and binding as an original.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of counterparts and facsimile signatures.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Potential for disputed signatures",
+        "Lack of explicit security measures for electronic signatures"
+      ],
+      "missing_controls": [
+        "Specific requirements for electronic signature platforms",
+        "Authentication procedures for signatories"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause allows for the execution of the agreement in multiple counterparts and accepts electronic signatures as valid. While it may introduce some risk related to signature authenticity, it is a common and widely accepted practice in contract law, posing minimal regulatory exposure.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "Employment",
+    "clause_id": "23.1",
+    "clause_heading": "Acknowledgment",
+    "clause_text": "You acknowledge that you have had the opportunity to consult legal counsel regarding this Agreement, have read and understand this Agreement, are fully aware of its legal effect, and have entered it freely and voluntarily and not on the basis of any representations or promises other than those contained in this Agreement.",
+    "clause_type": "Other",
+    "rationale": "This clause outlines the terms of acknowledgment.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "reliance on representations",
+        "acknowledgement of legal effect"
+      ],
+      "missing_controls": [
+        "explicit statement of no reliance on external statements",
+        "separate acknowledgement of terms and conditions"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause is a standard acknowledgement of agreement terms, which is a common and generally accepted practice in contract law. It does not introduce significant regulatory or liability risks, but it is essential to ensure that the agreement terms are fair and transparent to avoid potential disputes.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  }
+]
