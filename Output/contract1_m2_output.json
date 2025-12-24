@@ -1,0 +1,377 @@
+[
+  {
+    "contract_type": "NDA",
+    "clause_id": "2.5",
+    "clause_heading": "Release",
+    "clause_text": "In consideration of the mutual execution of this Agreement and the mutual agreement to be legally bound by the terms hereof, Lilly and Eagle each on behalf of itself and its predecessors, successors, assigns, shareholders, officers, directors, employees, trustees, agents, representatives, licensees, licensors, parents, subsidiaries and Affiliates and all others claiming by, through and under them, hereby fully, finally, irrevocably and forever releases, relinquishes, acquits and discharges the other Party and its predecessors, successors, assigns, shareholders, officers, directors, employees, trustees, agents, representatives, licensees, licensors, parents, subsidiaries, Affiliates, customers, suppliers, importers, attorneys, manufacturers, distributors and insurers, if any, from any and all claims, demands, causes of action, liabilities, losses, all manner of actions, judgments, settlements, interest, damages, punitive damages and other damages or costs of whatever nature (including costs, expenses, and attorneys’ fees), whether known or unknown, foreseen or unforeseen, certain or contingent, accruing on or before the Effective Date, arising out of, derived from, predicated upon, or relating to the Eagle Product and the Eagle NDA or its filing, the Licensed Patents and Other Lilly Patents, or the Patent Infringement Lawsuit; provided, however, that nothing herein shall prevent or impair the right of either Party to bring a proceeding in the forum set forth in Section 8.2 of this Agreement for a breach of this Agreement or any representation, warranty, or covenant herein, or with respect to any product other than the Eagle Product.",
+    "clause_type": "Release",
+    "rationale": "This clause is classified as a release clause because it involves the parties releasing each other from any claims or liabilities related to the Eagle Product and the Eagle NDA.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "high",
+      "risk_score": 90,
+      "risk_factors": [
+        "Broad release of claims",
+        "Irrevocable and forever discharge",
+        "Inclusion of unknown and unforeseen claims",
+        "Release of liabilities and damages",
+        "Potential waiver of future claims"
+      ],
+      "missing_controls": [
+        "No clear carve-out for gross negligence or willful misconduct",
+        "No explicit preservation of rights under other agreements"
+      ],
+      "regulation_violations": [
+        "Potential violation of GDPR Article 26 (joint controllership)",
+        "Potential implication of HIPAA (if Eagle Product or Licensed Patents relate to healthcare)"
+      ],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause poses high risk due to its broad release of claims, including unknown and unforeseen ones, which may lead to unintended waiver of future claims. The irrevocable and forever discharge of liabilities and damages may also limit the parties' ability to seek redress in case of breaches or misconduct.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "3.1",
+    "clause_heading": "License and Covenant Not to Sue",
+    "clause_text": "Lilly and its Affiliates hereby grant to Eagle and its Affiliates a non-transferable (except as permitted under Section 8.10), non-exclusive license under the Licensed Patents to manufacture, have manufactured, use, sell, offer to sell, and import the Eagle Product in the Territory as of and following the License Effective Date provided that such foregoing license to sell shall be limited to not more than nineteen thousand two hundred (19,200) vials of the Eagle Product in the Territory prior to April 1, 2022, but shall be unlimited thereafter.",
+    "clause_type": "License",
+    "rationale": "This clause is classified as a license clause because it grants Eagle a non-exclusive license to manufacture, use, sell, and import the Eagle Product under the Licensed Patents.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "Limited territorial scope",
+        "Quantity restrictions on sales",
+        "Non-transferable license with exceptions",
+        "Non-exclusive license may lead to competition",
+        "Potential for patent infringement disputes"
+      ],
+      "missing_controls": [
+        "Clear definition of 'Licensed Patents'",
+        "Specific guidelines for manufacturing and quality control",
+        "Provisions for auditing and monitoring sales quantities"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "The clause grants a non-exclusive, non-transferable license for the manufacture and sale of the Eagle Product, with limitations on sales quantities prior to a specified date. While the clause appears to be a standard licensing agreement, the non-exclusive nature and quantity restrictions may lead to competition and potential disputes. The lack of clear definitions and monitoring provisions also contributes to the medium risk level.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "3.6",
+    "clause_heading": "Covenant not to challenge Licensed Patents",
+    "clause_text": "Except to the extent required by law or order of a court or administrative agency of competent jurisdiction, only to the extent of any license contained in this Agreement and solely with respect to the Eagle Product, Eagle shall not, and shall cause its Affiliates (and Sublicensee, as applicable) not to: (i) challenge, dispute or contest the validity, enforceability, patentability, priority of invention or other claim to priority, or patent term adjustment of the Licensed Patents, in any proceeding in the United States Patent and Trademark Office (\"USPTO\") (e.g., re-examination, inter partes proceeding, protest, observation, comment, opposition, third-party submission, post-grant proceeding, inter panes review, post grant review, covered business method review, derivation proceeding, interference or other action) or any United States court proceedings, and (ii) knowingly assist or join any proceeding with any Third Party challenging, disputing or contesting the validity, enforceability, patentability, priority of invention or other claim to priority, or patent term adjustment, or asserting non-infringement of any of the Licensed Patents.",
+    "clause_type": "IP",
+    "rationale": "This clause is classified as an IP clause because it restricts Eagle's ability to challenge the validity or enforceability of the Licensed Patents.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "Restrictions on challenging patent validity",
+        "Obligations to prevent affiliates and sublicensees from contesting patents",
+        "Potential limitations on freedom to operate",
+        "Unclear consequences of assisting third parties in patent challenges"
+      ],
+      "missing_controls": [
+        "Definition of 'required by law' and its application",
+        "Specific procedures for handling court or administrative agency orders",
+        "Consequences for breaching the non-challenge obligation"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "None"
+      ],
+      "explanation": "This clause restricts the ability to challenge patent validity, which may limit the freedom to operate and could potentially lead to antitrust concerns. However, it does not directly implicate major regulations like GDPR, HIPAA, or SOC2. The primary risk lies in the potential for unintended consequences or unenforceability of the non-challenge obligation.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "4.1",
+    "clause_heading": "Royalty Payment",
+    "clause_text": "During the Royalty Term, Eagle shall pay to Lilly a royalty of 1.0 % of the Net Sales of the Eagle Product (\"Royalty Rate\") during each Eagle Quarter (\"the Net Sales Royalty\").",
+    "clause_type": "Payment",
+    "rationale": "This clause is classified as a payment clause because it outlines the royalty payment terms, including the royalty rate and payment schedule.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Unclear definition of Net Sales",
+        "Lack of clarity on Eagle Quarter"
+      ],
+      "missing_controls": [
+        "No audit rights specified",
+        "No mechanism for dispute resolution"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause outlines a straightforward royalty payment structure with minimal regulatory exposure. The primary concerns are related to potential ambiguities in the definitions of key terms, such as Net Sales and Eagle Quarter, which could lead to disputes. However, these are not significant regulatory risks.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "5.2",
+    "clause_heading": "Termination for Cause",
+    "clause_text": "The Parties agree that the sale or distribution of the Eagle Product in the Territory prior to the License Effective Date, other than as set forth in Section 3.12, shall constitute a material breach, and Lilly may terminate this Agreement if Eagle fails to cure such a breach within seven (7) days of written notice thereof.",
+    "clause_type": "Termination",
+    "rationale": "This clause is classified as a termination clause because it outlines the circumstances under which the agreement can be terminated, including material breach and failure to cure.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Keyword detected: terminate"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "medium",
+      "risk_score": 60,
+      "risk_factors": [
+        "termination without judicial intervention",
+        "strict timelines for breach cure",
+        "potential for dispute over material breach determination"
+      ],
+      "missing_controls": [
+        "clear definition of material breach",
+        "dispute resolution process"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause poses a medium risk due to its strict termination terms and potential for disputes over material breach. While it does not directly implicate specific regulations like GDPR or HIPAA, the lack of clear definitions and dispute resolution processes increases the risk of contractual misunderstandings.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "6.1",
+    "clause_heading": "Confidentialities",
+    "clause_text": "Except to enforce this Agreement or unless otherwise agreed to by the Parties in writing or as required by law, the Parties, their Affiliates and their respective employees, officers, directors and other representatives shall not publish or otherwise disclose the contents of this Agreement or confidential information shared pursuant to this Agreement, except that (a) each Party may disclose this Agreement (i) to its attorneys, advisors, consultants, agents, and representatives who are subject to obligations of confidentiality consistent with this Agreement and (ii) if either Party becomes required to disclose this Agreement by law, subpoena, regulation or order of a court or administrative agency, or as otherwise required by law, including reporting requirements to the U.S. Securities and Exchange Commission or by the rules or regulations of any stock exchange to which the Parties are subject,",
+    "clause_type": "Confidentiality",
+    "rationale": "This clause is classified as a confidentiality clause because it restricts the parties' ability to disclose confidential information shared pursuant to the agreement.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 15,
+      "risk_factors": [
+        "Keyword detected: confidential"
+      ],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "Disclosure of confidential information to third parties without explicit consent",
+        "Potential for involuntary disclosure due to legal or regulatory requirements"
+      ],
+      "missing_controls": [
+        "Specific guidelines for handling confidential information in the event of a merger or acquisition",
+        "Procedures for verifying the confidentiality obligations of third-party recipients"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": [
+        "GDPR",
+        "None"
+      ],
+      "explanation": "This clause establishes a general obligation of confidentiality among the parties and their representatives, with exceptions for disclosure to authorized third parties and as required by law. The risk level is low due to the inclusion of standard confidentiality protections and exceptions for legally mandated disclosures.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "7.1",
+    "clause_heading": "Representation / Warranties",
+    "clause_text": "Each Party represents and warrants to the other, as of the Effective Date, that: Such Party is duly organized, validly existing and in good standing under the laws of the jurisdiction of its incorporation and has full corporate power and authority to enter into this Agreement and to carry out the provisions hereof;",
+    "clause_type": "Other",
+    "rationale": "This clause is classified as an other clause because it includes representations and warranties that are not specifically related to any of the other clause types.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Potential for misrepresentation if a party is not duly organized or in good standing"
+      ],
+      "missing_controls": [
+        "No specific verification or audit process mentioned to confirm the representations"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause is a standard representation and warranty provision, typically found in contracts to ensure both parties are legally capable of entering into the agreement. The risk is low as it primarily serves to confirm the basic legal existence and authority of the parties involved.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "8.2",
+    "clause_heading": "Choice of Law and Remedies",
+    "clause_text": "This Agreement and any dispute arising out of or related to this Agreement shall be governed and interpreted in accordance with the laws of the State of Delaware without regard to conflicts of law principles.",
+    "clause_type": "Governing Law",
+    "rationale": "This clause is classified as a governing law clause because it specifies the laws that will govern the agreement and any disputes arising from it.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 10,
+      "risk_factors": [
+        "Potential for unforeseen jurisdictional issues",
+        "Limited consideration of international laws"
+      ],
+      "missing_controls": [
+        "No explicit mention of alternative dispute resolution mechanisms"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause establishes Delaware state law as the governing law, which is a common and generally acceptable practice. However, it may pose some risk if international parties are involved or if the agreement has global implications.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  },
+  {
+    "contract_type": "NDA",
+    "clause_id": "8.9",
+    "clause_heading": "Assignment",
+    "clause_text": "Neither Party will assign this Agreement or any part hereof or any interest herein (whether by operation of law or otherwise) without prior written notice to the other Party not less than 60 days prior to such assignment becoming effective;",
+    "clause_type": "Assignment",
+    "rationale": "This clause is classified as an assignment clause because it restricts the parties' ability to assign the agreement or any part of it without prior written notice.",
+    "rule_based_risk": {
+      "risk_level": "low",
+      "risk_score": 0,
+      "risk_factors": [],
+      "method": "rule_based"
+    },
+    "llm_based_risk": {
+      "risk_level": "low",
+      "risk_score": 20,
+      "risk_factors": [
+        "potential for unforeseen changes in ownership or control",
+        "possible impact on contractual obligations and performance"
+      ],
+      "missing_controls": [
+        "explicit requirement for consent to assignment",
+        "clear definition of 'operation of law' and its implications"
+      ],
+      "regulation_violations": [],
+      "regulation_impact": "None",
+      "explanation": "This clause imposes a notice period for assignment, which is a common and reasonable provision. The risk is low as it provides both parties with sufficient time to assess and respond to potential changes in ownership or control, without directly implicating any major regulations like GDPR, HIPAA, or SOC2.",
+      "method": "llm_based"
+    },
+    "risk_comparison": {
+      "preferred_method": "llm_based",
+      "justification": [
+        "Rule-based assessment relies on keyword detection and static scoring.",
+        "LLM-based assessment evaluates legal context and clause intent.",
+        "LLM identifies missing compliance controls and regulatory impact.",
+        "LLM output is more explainable and suitable for compliance analysis."
+      ]
+    }
+  }
+]
